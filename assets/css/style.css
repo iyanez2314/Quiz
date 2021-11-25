@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+
+
+/* .coding-quiz{
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    justify-content: center;
+    
+} */
+
+.coding-quiz-content{
+    position: relative;
+    top: 225px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.coding-quiz-content button{
+    background-color: blue;
+    color: seashell;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.highscores h3 {
+    
+    position: absolute;
+    bottom: 652px;
+    margin-left: 20px;
+}
+
+.timer h4{
+    position: absolute;
+    bottom: 5px;
+    margin: 26px;
+    
+}
+
+
+
+
