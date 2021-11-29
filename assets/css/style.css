@@ -1,50 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+    background-color: sandybrown;
+}
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-size: 62.5%;
+    font-family: 'Anton', sans-serif;
 }
 
+h1{
+    font-size: 5.4rem;
+    color:seashell;
+    margin: 5rem;
+}
 
+h2{
+    font: 4.2rem;
+    margin-bottom: 4rem;
+}
 
-/* .coding-quiz{
-    text-align: center;
-    line-height: 1.5;
-    position: relative;
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
-    
-} */
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
 
-.coding-quiz-content{
-    position: relative;
-    top: 225px;
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size: 2.4rem;
+    padding: 2rem 0;
     text-align: center;
-    line-height: 1.5;
+    width: 3orem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.7044309701492537) 58%, rgba(252,176,69,1) 100%);
+    border-radius: 4px;
 }
 
-.coding-quiz-content button{
-    background-color: blue;
-    color: seashell;
+.btn:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 244, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+/* End page CSS */
+
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 10px;
-    position: relative;
+    box-shadow: 0 0.2rem 1.4rem 0 black;
 }
 
-.highscores h3 {
-    
-    position: absolute;
-    bottom: 652px;
-    margin-left: 20px;
+input::placeholder{
+    color: orange;
 }
 
-.timer h4{
-    position: absolute;
-    bottom: 5px;
-    margin: 26px;
-    
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
 }
 
+#end-text{
+    font-size: 2.4rem;
+    color:black;
+    text-align: center;
+}
 
-
-
+#saveScoreBtn{
+    border: none;
+}
